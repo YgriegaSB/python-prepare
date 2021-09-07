@@ -8,3 +8,4 @@ lista2 = [1,2,3,4,5,8,9,10]
 
 # elementos de ambas listas
 lista3 = list(set(lista1+lista2))
+# En la primera pero no en la segunda
