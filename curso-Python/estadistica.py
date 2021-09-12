@@ -13,9 +13,9 @@ while contRelleno == 1:
     if cont == num:
         print(datos)
         print("\t Media")
-        print(f"la media de los datos ingresados es: {stats.harmonic_mean(datos):.2f}")
+        print(f"la media de los datos ingresados es: {stats.mean(datos):.2f}")
         print("\t Moda")
         print(f"La Moda de los datos ingresados es: {stats.mode(datos)}")
         print("\t Mediana")
-        print(f"La mediana de los datos es: {stats.median(datos)}")
+        print(f"La mediana de los datos es: {stats.median(datos):.2f}")
         contRelleno = 0
