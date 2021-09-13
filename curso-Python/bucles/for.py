@@ -18,8 +18,8 @@ print("---------------------------")
 
 # una forma mucho mejor .items
 
-for calve,valor in coleccion.items():
-    print(f"{calve} -> {valor}")
+for clave,valor in coleccion.items():
+    print(f"{clave} -> {valor}")
 
 print("---------------------------")
 # imprimo todo de corrido

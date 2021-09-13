@@ -4,7 +4,7 @@ import statistics as stats
 datos = []
 contRelleno = 1
 cont = 0
-num = int(input("\t --> ¿Cuantos digitos piensa ingresar? <-- \n limite: "))
+num = int(input("\t --> ¿Cuantos digitos piensa ingresar? <-- \n ==> "))
 
 while contRelleno == 1:   
     dato = int(input("Digite un numero para el arreglo: "))
