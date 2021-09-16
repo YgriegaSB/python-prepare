@@ -3,10 +3,23 @@
 def parimpar(num):
     resultado=num%2
     if resultado==0:
-        print(f'{num} es par')
+        print(f'{num} es par \n')
     else:
-        print(f'{num} es impar')
+        print(f'{num} es impar \n')
 
-parimpar(2)
-parimpar(3)
-parimpar(2421441243)
+print('En que numero estas pensando?')
+n = int(input('n° -> '))
+parimpar(n)
+
+cont = 0 
+
+while cont==0:
+    print("\t Deseas añadir otro")
+    res = str(input("S or n -> "))
+
+    if res == "s" or res == "S":
+        n = int(input('n° -> '))
+        parimpar(n)
+    else:
+        print("Finalizando...........")
+        cont = 1
