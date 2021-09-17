@@ -25,3 +25,20 @@ print("---------------------------")
 # imprimo todo de corrido
 for calve,valor in coleccion.items():
     print(f"{calve} -> {valor}", end=" || ")
+
+print("---------------------------")
+print("\tVerificacion Email")
+email=False
+
+for i in "nicolas@informatica.com":
+    if i=="@" or i==".":
+        email = True
+if email == True:
+    print("Email es correcto")
+else:
+    print("El email no es correcto")
+
+# Range
+
+for i in range(5):
+    print(f"{i} hola")
