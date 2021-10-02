@@ -4,7 +4,7 @@ import statistics as stats
 datos = []
 contRelleno = 1
 cont = 0
-num = int(input("\t --> ¿Cuantos digitos piensa ingresar? <-- \n ==> "))
+num = int(input("\t --> ¿Cuantos digitos piensa ingresar? <-- \n limite: "))
 
 while contRelleno == 1:   
     dato = int(input("Digite un numero para el arreglo: "))
@@ -18,4 +18,4 @@ while contRelleno == 1:
         print(f"La Moda de los datos ingresados es: {stats.mode(datos)}")
         print("\t Mediana")
         print(f"La mediana de los datos es: {stats.median(datos):.2f}")
-        contRelleno = 0
+        contRelleno = 0 
