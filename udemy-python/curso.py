@@ -12,3 +12,5 @@ print ( id(z) )
 # saber tipo 
 z: str = "string"
 print( type(z) )
+
+print( type(x) ) 
